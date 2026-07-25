@@ -22,5 +22,5 @@ graph LR
     ```ruby relay.rb > relay.rs```
 1. Rust -> Python  
     ```rustc relay.rs -o relay_rust && ./relay_rust > reconstructed.py```
-1. 검증
+1. 검증  
     ```diff quine_relay.py reconstructed.py```
