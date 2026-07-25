@@ -1,1 +1,1 @@
-# quine
+# quine_relay
