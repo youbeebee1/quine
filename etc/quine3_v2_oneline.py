@@ -1,0 +1,1 @@
+import json;s='import json;s=%r;j=%r;r=%r;p=s%%(s,j,r);a=r%%json.dumps(p);b=j%%json.dumps(a);print(b)';j='const s=%s;console.log(s);';r='s=%s;print "%%s"%%[s]';p=s%(s,j,r);a=r%json.dumps(p);b=j%json.dumps(a);print(b)
