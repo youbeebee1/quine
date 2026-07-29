@@ -1,0 +1,1 @@
+e=lambda x:'"'+x.replace('\\','\\\\').replace('"','\\"').replace('\n','\\n')+'"';a='e=lambda x:\'"\'+x.replace(\'\\\\\',\'\\\\\\\\\').replace(\'"\',\'\\\\"\').replace(\'\\n\',\'\\\\n\')+\'"\';a=%r;b=%r;c=%r;print(b%%e(c%%e(a%%(a,b,c))))';b='const s=%s;console.log(s);';c='s=%s;print "%%s"%%[s]';print(b%e(c%e(a%(a,b,c))))
